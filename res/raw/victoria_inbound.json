@@ -1,0 +1,3110 @@
+{
+	"$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+	"direction": "inbound",
+	"isOutboundOnly": false,
+	"lineId": "victoria",
+	"lineName": "Victoria",
+	"lineStrings": [
+		"[[[-0.019877,51.583],[-0.041143,51.5869],[-0.060234,51.5881],[-0.072577,51.5833],[-0.106819,51.5642],[-0.103319,51.5464],[-0.12319,51.5307],[-0.134189,51.5282],[-0.138317,51.525],[-0.141899,51.5152],[-0.142783,51.507],[-0.143098,51.4964],[-0.133757,51.4891],[-0.1242,51.4857],[-0.122639,51.4722],[-0.114884,51.4626]]]"
+	],
+	"mode": "tube",
+	"orderedLineRoutes": [
+		{
+			"$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+			"name": "Brixton  &harr;  Walthamstow Central ",
+			"naptanIds": [
+				"940GZZLUBXN",
+				"940GZZLUSKW",
+				"940GZZLUVXL",
+				"940GZZLUPCO",
+				"940GZZLUVIC",
+				"940GZZLUGPK",
+				"940GZZLUOXC",
+				"940GZZLUWRR",
+				"940GZZLUEUS",
+				"940GZZLUKSX",
+				"940GZZLUHAI",
+				"940GZZLUFPK",
+				"940GZZLUSVS",
+				"940GZZLUTMH",
+				"940GZZLUBLR",
+				"940GZZLUWWL"
+			]
+		}
+	],
+	"stations": [
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000093",
+			"id": "940GZZLUGPK",
+			"lat": 51.506951,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "14",
+					"name": "14",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/14"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "19",
+					"name": "19",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/19"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "22",
+					"name": "22",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/22"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "38",
+					"name": "38",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/38"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "9",
+					"name": "9",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/9"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "c2",
+					"name": "C2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/c2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "jubilee",
+					"name": "Jubilee",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/jubilee"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n19",
+					"name": "N19",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n19"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n22",
+					"name": "N22",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n22"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n38",
+					"name": "N38",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n38"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n9",
+					"name": "N9",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n9"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n97",
+					"name": "N97",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n97"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "piccadilly",
+					"name": "Piccadilly",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/piccadilly"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.142783,
+			"modes": [
+				"tube",
+				"bus"
+			],
+			"name": "Green Park Underground Station",
+			"stationId": "940GZZLUGPK",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUGPK"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000173",
+			"id": "940GZZLUOXC",
+			"lat": 51.515228,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "10",
+					"name": "10",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "12",
+					"name": "12",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/12"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "13",
+					"name": "13",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "137",
+					"name": "137",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/137"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "139",
+					"name": "139",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/139"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "159",
+					"name": "159",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/159"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "189",
+					"name": "189",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/189"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "23",
+					"name": "23",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/23"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "25",
+					"name": "25",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/25"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "390",
+					"name": "390",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/390"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "55",
+					"name": "55",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/55"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "6",
+					"name": "6",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "7",
+					"name": "7",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/7"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "73",
+					"name": "73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "88",
+					"name": "88",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/88"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "94",
+					"name": "94",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/94"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "98",
+					"name": "98",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/98"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "c2",
+					"name": "C2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/c2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "central",
+					"name": "Central",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/central"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n109",
+					"name": "N109",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n109"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n113",
+					"name": "N113",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n113"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n13",
+					"name": "N13",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n136",
+					"name": "N136",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n136"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n137",
+					"name": "N137",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n137"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n207",
+					"name": "N207",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n207"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n3",
+					"name": "N3",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n3"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n55",
+					"name": "N55",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n55"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n7",
+					"name": "N7",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n7"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n8",
+					"name": "N8",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n8"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n98",
+					"name": "N98",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n98"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.141899,
+			"modes": [
+				"tube",
+				"bus"
+			],
+			"name": "Oxford Circus Underground Station",
+			"stationId": "940GZZLUOXC",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUOXC"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000180",
+			"id": "940GZZLUPCO",
+			"lat": 51.489101,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "185",
+					"name": "185",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/185"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "2",
+					"name": "2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "36",
+					"name": "36",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/36"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "360",
+					"name": "360",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/360"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "436",
+					"name": "436",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/436"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "c10",
+					"name": "C10",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/c10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n136",
+					"name": "N136",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n136"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n2",
+					"name": "N2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.133757,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Pimlico Underground Station",
+			"stationId": "940GZZLUPCO",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUPCO"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000223",
+			"id": "940GZZLUSKW",
+			"lat": 51.472188,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "155",
+					"name": "155",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/155"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "345",
+					"name": "345",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/345"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n155",
+					"name": "N155",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n155"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/northern"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.122639,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Stockwell Underground Station",
+			"stationId": "940GZZLUSKW",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUSKW"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000252",
+			"id": "940GZZLUWRR",
+			"lat": 51.524956,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "10",
+					"name": "10",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "134",
+					"name": "134",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/134"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "14",
+					"name": "14",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/14"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "205",
+					"name": "205",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "24",
+					"name": "24",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/24"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "27",
+					"name": "27",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/27"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "29",
+					"name": "29",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/29"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "30",
+					"name": "30",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/30"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "390",
+					"name": "390",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/390"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "73",
+					"name": "73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "88",
+					"name": "88",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/88"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n20",
+					"name": "N20",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n20"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n205",
+					"name": "N205",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n253",
+					"name": "N253",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n253"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n279",
+					"name": "N279",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n279"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n29",
+					"name": "N29",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n29"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n5",
+					"name": "N5",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n5"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/northern"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.138317,
+			"modes": [
+				"tube",
+				"bus"
+			],
+			"name": "Warren Street Underground Station",
+			"stationId": "940GZZLUWRR",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUWRR"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000024",
+			"id": "HUBBHO",
+			"lat": 51.586768,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "123",
+					"name": "123",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/123"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "158",
+					"name": "158",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/158"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "230",
+					"name": "230",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/230"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/london-overground"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.041185,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Blackhorse Road Station",
+			"stationId": "HUBBHO",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBBHO"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000031",
+			"id": "HUBBRX",
+			"lat": 51.462961,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "109",
+					"name": "109",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/109"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "118",
+					"name": "118",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/118"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "133",
+					"name": "133",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/133"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "159",
+					"name": "159",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/159"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "196",
+					"name": "196",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/196"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "2",
+					"name": "2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "250",
+					"name": "250",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/250"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "3",
+					"name": "3",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/3"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "322",
+					"name": "322",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/322"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "333",
+					"name": "333",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/333"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "35",
+					"name": "35",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/35"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "355",
+					"name": "355",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/355"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "415",
+					"name": "415",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/415"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "432",
+					"name": "432",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/432"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "45",
+					"name": "45",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/45"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "59",
+					"name": "59",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/59"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n109",
+					"name": "N109",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n109"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n133",
+					"name": "N133",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n133"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n2",
+					"name": "N2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n3",
+					"name": "N3",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n3"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n35",
+					"name": "N35",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n35"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "p4",
+					"name": "P4",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/p4"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.114531,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Brixton Station",
+			"stationId": "HUBBRX",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBBRX"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000077",
+			"id": "HUBEUS",
+			"lat": 51.527365,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "10",
+					"name": "10",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "168",
+					"name": "168",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/168"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "205",
+					"name": "205",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "253",
+					"name": "253",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/253"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "30",
+					"name": "30",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/30"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "390",
+					"name": "390",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/390"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "476",
+					"name": "476",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/476"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "59",
+					"name": "59",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/59"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "68",
+					"name": "68",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/68"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "73",
+					"name": "73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "91",
+					"name": "91",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/91"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-midland",
+					"name": "London Midland",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/london-midland"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/london-overground"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n20",
+					"name": "N20",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n20"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n205",
+					"name": "N205",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n253",
+					"name": "N253",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n253"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n5",
+					"name": "N5",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n5"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n91",
+					"name": "N91",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n91"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/northern"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "virgin-trains",
+					"name": "Virgin Trains",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/virgin-trains"
+				}
+			],
+			"lon": -0.132754,
+			"modes": [
+				"national-rail",
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Euston Station",
+			"stationId": "HUBEUS",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBEUS"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000083",
+			"id": "HUBFPK",
+			"lat": 51.564778,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "106",
+					"name": "106",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/106"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "153",
+					"name": "153",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/153"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "19",
+					"name": "19",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/19"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "210",
+					"name": "210",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/210"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "236",
+					"name": "236",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/236"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "253",
+					"name": "253",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/253"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "254",
+					"name": "254",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/254"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "259",
+					"name": "259",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/259"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "29",
+					"name": "29",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/29"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "4",
+					"name": "4",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/4"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n19",
+					"name": "N19",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n19"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n253",
+					"name": "N253",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n253"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n279",
+					"name": "N279",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n279"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n29",
+					"name": "N29",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n29"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "piccadilly",
+					"name": "Piccadilly",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/piccadilly"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "w3",
+					"name": "W3",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/w3"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "w7",
+					"name": "W7",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/w7"
+				}
+			],
+			"lon": -0.105876,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Finsbury Park Station",
+			"stationId": "HUBFPK",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBFPK"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000108",
+			"id": "HUBHHY",
+			"lat": 51.546269,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "263",
+					"name": "263",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/263"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "271",
+					"name": "271",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/271"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "393",
+					"name": "393",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/393"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "43",
+					"name": "43",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/43"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/london-overground"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n41",
+					"name": "N41",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n41"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.103538,
+			"modes": [
+				"national-rail",
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Highbury & Islington Station",
+			"stationId": "HUBHHY",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBHHY"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000129",
+			"id": "HUBKGX",
+			"lat": 51.531683,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "10",
+					"name": "10",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "17",
+					"name": "17",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/17"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "205",
+					"name": "205",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "214",
+					"name": "214",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/214"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "259",
+					"name": "259",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/259"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "30",
+					"name": "30",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/30"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "390",
+					"name": "390",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/390"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "45",
+					"name": "45",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/45"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "46",
+					"name": "46",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/46"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "476",
+					"name": "476",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/476"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "59",
+					"name": "59",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/59"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "63",
+					"name": "63",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/63"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "73",
+					"name": "73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "91",
+					"name": "91",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/91"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "circle",
+					"name": "Circle",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/circle"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "hammersmith-city",
+					"name": "Hammersmith & City",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/hammersmith-city"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "metropolitan",
+					"name": "Metropolitan",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/metropolitan"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n205",
+					"name": "N205",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n63",
+					"name": "N63",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n63"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n91",
+					"name": "N91",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n91"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/northern"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "piccadilly",
+					"name": "Piccadilly",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/piccadilly"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.123538,
+			"modes": [
+				"national-rail",
+				"tube",
+				"international-rail",
+				"bus"
+			],
+			"name": "King's Cross",
+			"stationId": "HUBKGX",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBKGX"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000201",
+			"id": "HUBSVS",
+			"lat": 51.582931,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "149",
+					"name": "149",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/149"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "243",
+					"name": "243",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/243"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "259",
+					"name": "259",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/259"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "279",
+					"name": "279",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/279"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "318",
+					"name": "318",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/318"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "349",
+					"name": "349",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/349"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "41",
+					"name": "41",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/41"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "476",
+					"name": "476",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/476"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "76",
+					"name": "76",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/76"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n279",
+					"name": "N279",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n279"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n41",
+					"name": "N41",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n41"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.073306,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Seven Sisters Station",
+			"stationId": "HUBSVS",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBSVS"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000236",
+			"id": "HUBTOM",
+			"lat": 51.588315,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "123",
+					"name": "123",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/123"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "192",
+					"name": "192",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/192"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "230",
+					"name": "230",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/230"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "41",
+					"name": "41",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/41"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "76",
+					"name": "76",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/76"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n41",
+					"name": "N41",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n41"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "w4",
+					"name": "W4",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/w4"
+				}
+			],
+			"lon": -0.06024,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Tottenham Hale",
+			"stationId": "HUBTOM",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBTOM"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000248",
+			"id": "HUBVIC",
+			"lat": 51.495812,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "11",
+					"name": "11",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/11"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "16",
+					"name": "16",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/16"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "170",
+					"name": "170",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/170"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "185",
+					"name": "185",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/185"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "2",
+					"name": "2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "211",
+					"name": "211",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/211"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "24",
+					"name": "24",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/24"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "36",
+					"name": "36",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/36"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "436",
+					"name": "436",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/436"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "52",
+					"name": "52",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/52"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "82",
+					"name": "82",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/82"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "c2",
+					"name": "C2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/c2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "circle",
+					"name": "Circle",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/circle"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "district",
+					"name": "District",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/district"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n11",
+					"name": "N11",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n11"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n136",
+					"name": "N136",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n136"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n16",
+					"name": "N16",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n16"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n2",
+					"name": "N2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.143826,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Victoria Station",
+			"stationId": "HUBVIC",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBVIC"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000247",
+			"id": "HUBVXH",
+			"lat": 51.485739,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "2",
+					"name": "2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "344",
+					"name": "344",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/344"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "360",
+					"name": "360",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/360"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "77",
+					"name": "77",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/77"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "88",
+					"name": "88",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/88"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n2",
+					"name": "N2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "rb2",
+					"name": "RB2",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/rb2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "rb6",
+					"name": "RB6",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/rb6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.123303,
+			"modes": [
+				"national-rail",
+				"tube",
+				"river-bus",
+				"bus"
+			],
+			"name": "Vauxhall",
+			"stationId": "HUBVXH",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBVXH"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000249",
+			"id": "HUBWHC",
+			"lat": 51.582948,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "20",
+					"name": "20",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/20"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "212",
+					"name": "212",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/212"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "215",
+					"name": "215",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/215"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "230",
+					"name": "230",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/230"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "257",
+					"name": "257",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/257"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "275",
+					"name": "275",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/275"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "34",
+					"name": "34",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/34"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "357",
+					"name": "357",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/357"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "48",
+					"name": "48",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/48"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "675",
+					"name": "675",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/675"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "69",
+					"name": "69",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/69"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "97",
+					"name": "97",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/97"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n26",
+					"name": "N26",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n26"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n38",
+					"name": "N38",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n38"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/victoria"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "w12",
+					"name": "W12",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/w12"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "w15",
+					"name": "W15",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/w15"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "w19",
+					"name": "W19",
+					"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+					"uri": "/Line/w19"
+				}
+			],
+			"lon": -0.019842,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Walthamstow Central Station",
+			"stationId": "HUBWHC",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBWHC"
+		}
+	],
+	"stopPointSequences": [
+		{
+			"$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+			"branchId": 0,
+			"direction": "inbound",
+			"lineId": "victoria",
+			"lineName": "Victoria",
+			"nextBranchIds": [
+			],
+			"prevBranchIds": [
+			],
+			"stopPoint": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000249",
+					"id": "940GZZLUWWL",
+					"lat": 51.582971,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.019877,
+					"modes": [
+						"tube"
+					],
+					"name": "Walthamstow Central Underground Station",
+					"parentId": "HUBWHC",
+					"stationId": "940GZZLUWWL",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBWHC"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000024",
+					"id": "940GZZLUBLR",
+					"lat": 51.586925,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.041143,
+					"modes": [
+						"tube"
+					],
+					"name": "Blackhorse Road Underground Station",
+					"parentId": "HUBBHO",
+					"stationId": "940GZZLUBLR",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBBHO"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000236",
+					"id": "940GZZLUTMH",
+					"lat": 51.588115,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.060234,
+					"modes": [
+						"tube"
+					],
+					"name": "Tottenham Hale Underground Station",
+					"parentId": "HUBTOM",
+					"stationId": "940GZZLUTMH",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBTOM"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000201",
+					"id": "940GZZLUSVS",
+					"lat": 51.583336,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.072577,
+					"modes": [
+						"tube"
+					],
+					"name": "Seven Sisters Underground Station",
+					"parentId": "HUBSVS",
+					"stationId": "940GZZLUSVS",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBSVS"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000083",
+					"id": "940GZZLUFPK",
+					"lat": 51.564164,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "piccadilly",
+							"name": "Piccadilly",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/piccadilly"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.106819,
+					"modes": [
+						"tube"
+					],
+					"name": "Finsbury Park Underground Station",
+					"parentId": "HUBFPK",
+					"stationId": "940GZZLUFPK",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBFPK"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000108",
+					"id": "940GZZLUHAI",
+					"lat": 51.546355,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.103319,
+					"modes": [
+						"tube"
+					],
+					"name": "Highbury & Islington Underground Station",
+					"parentId": "HUBHHY",
+					"stationId": "940GZZLUHAI",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBHHY"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000129",
+					"id": "940GZZLUKSX",
+					"lat": 51.530668,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "circle",
+							"name": "Circle",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/circle"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "hammersmith-city",
+							"name": "Hammersmith & City",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/hammersmith-city"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "metropolitan",
+							"name": "Metropolitan",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/metropolitan"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/northern"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "piccadilly",
+							"name": "Piccadilly",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/piccadilly"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.12319,
+					"modes": [
+						"tube"
+					],
+					"name": "King's Cross St. Pancras Underground Station",
+					"parentId": "HUBKGX",
+					"stationId": "940GZZLUKSX",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBKGX"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000077",
+					"id": "940GZZLUEUS",
+					"lat": 51.528244,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/northern"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.134189,
+					"modes": [
+						"tube"
+					],
+					"name": "Euston Underground Station",
+					"parentId": "HUBEUS",
+					"stationId": "940GZZLUEUS",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBEUS"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000252",
+					"id": "940GZZLUWRR",
+					"lat": 51.524956,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "10",
+							"name": "10",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/10"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "134",
+							"name": "134",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/134"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "14",
+							"name": "14",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/14"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "18",
+							"name": "18",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "205",
+							"name": "205",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/205"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "24",
+							"name": "24",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/24"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "27",
+							"name": "27",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/27"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "29",
+							"name": "29",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/29"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "30",
+							"name": "30",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/30"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "390",
+							"name": "390",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/390"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "73",
+							"name": "73",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/73"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "88",
+							"name": "88",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/88"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n20",
+							"name": "N20",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n20"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n205",
+							"name": "N205",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n205"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n253",
+							"name": "N253",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n253"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n279",
+							"name": "N279",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n279"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n29",
+							"name": "N29",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n29"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n5",
+							"name": "N5",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n5"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n73",
+							"name": "N73",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n73"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/northern"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.138317,
+					"modes": [
+						"tube",
+						"bus"
+					],
+					"name": "Warren Street Underground Station",
+					"stationId": "940GZZLUWRR",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUWRR"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000173",
+					"id": "940GZZLUOXC",
+					"lat": 51.515228,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "10",
+							"name": "10",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/10"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "12",
+							"name": "12",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/12"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "13",
+							"name": "13",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "137",
+							"name": "137",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/137"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "139",
+							"name": "139",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/139"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "159",
+							"name": "159",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/159"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "189",
+							"name": "189",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/189"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "23",
+							"name": "23",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/23"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "25",
+							"name": "25",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/25"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "390",
+							"name": "390",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/390"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "55",
+							"name": "55",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/55"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "6",
+							"name": "6",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/6"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "7",
+							"name": "7",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/7"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "73",
+							"name": "73",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/73"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "88",
+							"name": "88",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/88"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "94",
+							"name": "94",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/94"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "98",
+							"name": "98",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/98"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "c2",
+							"name": "C2",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/c2"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "central",
+							"name": "Central",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/central"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n109",
+							"name": "N109",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n109"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n113",
+							"name": "N113",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n113"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n13",
+							"name": "N13",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n136",
+							"name": "N136",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n136"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n137",
+							"name": "N137",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n137"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n18",
+							"name": "N18",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n207",
+							"name": "N207",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n207"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n3",
+							"name": "N3",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n3"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n55",
+							"name": "N55",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n55"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n7",
+							"name": "N7",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n7"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n73",
+							"name": "N73",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n73"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n8",
+							"name": "N8",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n8"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n98",
+							"name": "N98",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n98"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.141899,
+					"modes": [
+						"tube",
+						"bus"
+					],
+					"name": "Oxford Circus Underground Station",
+					"stationId": "940GZZLUOXC",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUOXC"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000093",
+					"id": "940GZZLUGPK",
+					"lat": 51.506951,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "14",
+							"name": "14",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/14"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "19",
+							"name": "19",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/19"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "22",
+							"name": "22",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/22"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "38",
+							"name": "38",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/38"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "9",
+							"name": "9",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/9"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "c2",
+							"name": "C2",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/c2"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "jubilee",
+							"name": "Jubilee",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/jubilee"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n19",
+							"name": "N19",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n19"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n22",
+							"name": "N22",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n22"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n38",
+							"name": "N38",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n38"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n9",
+							"name": "N9",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n9"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n97",
+							"name": "N97",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n97"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "piccadilly",
+							"name": "Piccadilly",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/piccadilly"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.142783,
+					"modes": [
+						"tube",
+						"bus"
+					],
+					"name": "Green Park Underground Station",
+					"stationId": "940GZZLUGPK",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUGPK"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000248",
+					"id": "940GZZLUVIC",
+					"lat": 51.496363,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "circle",
+							"name": "Circle",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/circle"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "district",
+							"name": "District",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/district"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.143098,
+					"modes": [
+						"tube"
+					],
+					"name": "Victoria Underground Station",
+					"parentId": "HUBVIC",
+					"stationId": "940GZZLUVIC",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBVIC"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000180",
+					"id": "940GZZLUPCO",
+					"lat": 51.489101,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "185",
+							"name": "185",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/185"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "2",
+							"name": "2",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/2"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "36",
+							"name": "36",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/36"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "360",
+							"name": "360",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/360"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "436",
+							"name": "436",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/436"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "c10",
+							"name": "C10",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/c10"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n136",
+							"name": "N136",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n136"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n2",
+							"name": "N2",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n2"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.133757,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Pimlico Underground Station",
+					"stationId": "940GZZLUPCO",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUPCO"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000247",
+					"id": "940GZZLUVXL",
+					"lat": 51.485747,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.1242,
+					"modes": [
+						"tube"
+					],
+					"name": "Vauxhall Underground Station",
+					"parentId": "HUBVXH",
+					"stationId": "940GZZLUVXL",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBVXH"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000223",
+					"id": "940GZZLUSKW",
+					"lat": 51.472188,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "155",
+							"name": "155",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/155"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "345",
+							"name": "345",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/345"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n155",
+							"name": "N155",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/n155"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/northern"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.122639,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Stockwell Underground Station",
+					"stationId": "940GZZLUSKW",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUSKW"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000031",
+					"id": "940GZZLUBXN",
+					"lat": 51.462621,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities, Version=2.21.0.67, Culture=neutral, PublicKeyToken=null",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.114884,
+					"modes": [
+						"tube"
+					],
+					"name": "Brixton Underground Station",
+					"parentId": "HUBBRX",
+					"stationId": "940GZZLUBXN",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBBRX"
+				}
+			]
+		}
+	]
+}

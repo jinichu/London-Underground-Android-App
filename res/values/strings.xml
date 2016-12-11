@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mind the Gap</string>
+    <string name="about">About</string>
+    <string name="refresh">Refresh</string>
+    <string name="download">Bot Download</string>
+    <string name="ok">OK</string>
+    <string name="you">Your nearest station:</string>
+    <string name="bot">Bot</string>
+    <string name="unknown">Unknown</string>
+    <string name="botLocn">Bot Location</string>
+    <string name="tfl_api_json">Could not obtain arrivals information! (TfL Data Format Problem)</string>
+    <string name="tfl_api_json_missing">Could not obtain arrivals information! (TfL Response Missing Data)</string>
+    <string name="tfl_api_network">Could not obtain arrivals information! (Network Problem)</string>
+    <string name="whereru_api_json">Could not obtain data from WhereRu service! (WhereRu Data Problem)</string>
+    <string name="whereru_api_network">Could not obtain data from WhereRu service! (Network Problem)</string>
+    <string name="arrivals_download_title">Connecting to TfL…</string>
+    <string name="arrivals_download_msg">Downloading train arrivals…</string>
+    <string name="out_of_range">Stations out of range</string>
+    <string name="arrivals_activity_subtitle">Arrivals</string>
+    <string name="arrival_group_activity_subtitle">Arrivals by Line</string>
+    <string name="no_trains">No trains scheduled</string>
+    <string name="tfl_open_data">Powered by TfL Open Data</string>
+    <string name="tfl_web">http://www.tfl.gov.uk/info-for/open-data-users/</string>
+    <string name="copyright">© 2015</string>
+    <string name="cs210_web">https://sites.google.com/site/ubccpsc210/</string>
+    <string name="stn_name_key">stn</string>
+    <string name="line_id_key">lineId</string>
+    <string name="travel_dirn_key">travelDirn</string>
+    <string name="lat_key">lat</string>
+    <string name="lon_key">lon</string>
+    <string name="zoom_key">zoom</string>
+    <string name="locn_key">locn</string>
+</resources>

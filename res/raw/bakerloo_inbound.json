@@ -1,0 +1,4315 @@
+{
+	"$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+	"direction": "inbound",
+	"isOutboundOnly": false,
+	"lineId": "bakerloo",
+	"lineName": "Bakerloo",
+	"lineStrings": [
+		"[[[-0.335219,51.5923],[-0.316911,51.5818],[-0.308433,51.5702],[-0.304,51.5626],[-0.296852,51.5523],[-0.275891,51.544],[-0.257882,51.5363],[-0.244282,51.5323],[-0.225014,51.5305],[-0.204571,51.5342],[-0.194229,51.535],[-0.185756,51.5298],[-0.18378,51.5233],[-0.175686,51.5166],[-0.170147,51.5203],[-0.163204,51.5223],[-0.157127,51.5229],[-0.146441,51.5233],[-0.141899,51.5152],[-0.133794,51.5101],[-0.127273,51.5074],[-0.122662,51.5071],[-0.114776,51.5033],[-0.11231,51.4988],[-0.100601,51.4945]]]"
+	],
+	"mode": "tube",
+	"orderedLineRoutes": [
+		{
+			"$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+			"name": "Elephant & Castle  &harr;  Harrow & Wealdstone ",
+			"naptanIds": [
+				"940GZZLUEAC",
+				"940GZZLULBN",
+				"940GZZLUWLO",
+				"940GZZLUEMB",
+				"940GZZLUCHX",
+				"940GZZLUPCC",
+				"940GZZLUOXC",
+				"940GZZLURGP",
+				"940GZZLUBST",
+				"940GZZLUMYB",
+				"940GZZLUERB",
+				"940GZZLUPAC",
+				"940GZZLUWKA",
+				"940GZZLUMVL",
+				"940GZZLUKPK",
+				"940GZZLUQPS",
+				"940GZZLUKSL",
+				"940GZZLUWJN",
+				"940GZZLUHSN",
+				"940GZZLUSGP",
+				"940GZZLUWYC",
+				"940GZZLUNWY",
+				"940GZZLUSKT",
+				"940GZZLUKEN",
+				"940GZZLUHAW"
+			]
+		}
+	],
+	"stations": [
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000011",
+			"id": "940GZZLUBST",
+			"lat": 51.522888,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "113",
+					"name": "113",
+					"type": "Line",
+					"uri": "/Line/113"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "13",
+					"name": "13",
+					"type": "Line",
+					"uri": "/Line/13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "139",
+					"name": "139",
+					"type": "Line",
+					"uri": "/Line/139"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Line",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "189",
+					"name": "189",
+					"type": "Line",
+					"uri": "/Line/189"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "205",
+					"name": "205",
+					"type": "Line",
+					"uri": "/Line/205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "27",
+					"name": "27",
+					"type": "Line",
+					"uri": "/Line/27"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "274",
+					"name": "274",
+					"type": "Line",
+					"uri": "/Line/274"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "30",
+					"name": "30",
+					"type": "Line",
+					"uri": "/Line/30"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "453",
+					"name": "453",
+					"type": "Line",
+					"uri": "/Line/453"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "74",
+					"name": "74",
+					"type": "Line",
+					"uri": "/Line/74"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "82",
+					"name": "82",
+					"type": "Line",
+					"uri": "/Line/82"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "circle",
+					"name": "Circle",
+					"type": "Line",
+					"uri": "/Line/circle"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "hammersmith-city",
+					"name": "Hammersmith & City",
+					"type": "Line",
+					"uri": "/Line/hammersmith-city"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "jubilee",
+					"name": "Jubilee",
+					"type": "Line",
+					"uri": "/Line/jubilee"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "metropolitan",
+					"name": "Metropolitan",
+					"type": "Line",
+					"uri": "/Line/metropolitan"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n113",
+					"name": "N113",
+					"type": "Line",
+					"uri": "/Line/n113"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n13",
+					"name": "N13",
+					"type": "Line",
+					"uri": "/Line/n13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n205",
+					"name": "N205",
+					"type": "Line",
+					"uri": "/Line/n205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n74",
+					"name": "N74",
+					"type": "Line",
+					"uri": "/Line/n74"
+				}
+			],
+			"lon": -0.157127,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Baker Street Underground Station",
+			"stationId": "940GZZLUBST",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUBST"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000075",
+			"id": "940GZZLUEMB",
+			"lat": 51.507062,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "circle",
+					"name": "Circle",
+					"type": "Line",
+					"uri": "/Line/circle"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "district",
+					"name": "District",
+					"type": "Line",
+					"uri": "/Line/district"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n550",
+					"name": "N550",
+					"type": "Line",
+					"uri": "/Line/n550"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Line",
+					"uri": "/Line/northern"
+				}
+			],
+			"lon": -0.122662,
+			"modes": [
+				"tube",
+				"bus"
+			],
+			"name": "Embankment Underground Station",
+			"stationId": "940GZZLUEMB",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUEMB"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000071",
+			"id": "940GZZLUERB",
+			"lat": 51.520304,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "16",
+					"name": "16",
+					"type": "Line",
+					"uri": "/Line/16"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Line",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "332",
+					"name": "332",
+					"type": "Line",
+					"uri": "/Line/332"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "414",
+					"name": "414",
+					"type": "Line",
+					"uri": "/Line/414"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "6",
+					"name": "6",
+					"type": "Line",
+					"uri": "/Line/6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "98",
+					"name": "98",
+					"type": "Line",
+					"uri": "/Line/98"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n16",
+					"name": "N16",
+					"type": "Line",
+					"uri": "/Line/n16"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n98",
+					"name": "N98",
+					"type": "Line",
+					"uri": "/Line/n98"
+				}
+			],
+			"lon": -0.170147,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Edgware Road (Bakerloo) Underground Station",
+			"stationId": "940GZZLUERB",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUERB"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000127",
+			"id": "940GZZLUKPK",
+			"lat": 51.534985,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "206",
+					"name": "206",
+					"type": "Line",
+					"uri": "/Line/206"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "31",
+					"name": "31",
+					"type": "Line",
+					"uri": "/Line/31"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "316",
+					"name": "316",
+					"type": "Line",
+					"uri": "/Line/316"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "32",
+					"name": "32",
+					"type": "Line",
+					"uri": "/Line/32"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "328",
+					"name": "328",
+					"type": "Line",
+					"uri": "/Line/328"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "632",
+					"name": "632",
+					"type": "Line",
+					"uri": "/Line/632"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n28",
+					"name": "N28",
+					"type": "Line",
+					"uri": "/Line/n28"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n31",
+					"name": "N31",
+					"type": "Line",
+					"uri": "/Line/n31"
+				}
+			],
+			"lon": -0.194229,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Kilburn Park Underground Station",
+			"stationId": "940GZZLUKPK",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUKPK"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000132",
+			"id": "940GZZLULBN",
+			"lat": 51.498812,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "12",
+					"name": "12",
+					"type": "Line",
+					"uri": "/Line/12"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "148",
+					"name": "148",
+					"type": "Line",
+					"uri": "/Line/148"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "159",
+					"name": "159",
+					"type": "Line",
+					"uri": "/Line/159"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "453",
+					"name": "453",
+					"type": "Line",
+					"uri": "/Line/453"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "53",
+					"name": "53",
+					"type": "Line",
+					"uri": "/Line/53"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "59",
+					"name": "59",
+					"type": "Line",
+					"uri": "/Line/59"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "c10",
+					"name": "C10",
+					"type": "Line",
+					"uri": "/Line/c10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n109",
+					"name": "N109",
+					"type": "Line",
+					"uri": "/Line/n109"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n155",
+					"name": "N155",
+					"type": "Line",
+					"uri": "/Line/n155"
+				}
+			],
+			"lon": -0.11231,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Lambeth North Underground Station",
+			"stationId": "940GZZLULBN",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLULBN"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000141",
+			"id": "940GZZLUMVL",
+			"lat": 51.529782,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				}
+			],
+			"lon": -0.185756,
+			"modes": [
+				"tube"
+			],
+			"name": "Maida Vale Underground Station",
+			"stationId": "940GZZLUMVL",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUMVL"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000173",
+			"id": "940GZZLUOXC",
+			"lat": 51.515228,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "10",
+					"name": "10",
+					"type": "Line",
+					"uri": "/Line/10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "12",
+					"name": "12",
+					"type": "Line",
+					"uri": "/Line/12"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "13",
+					"name": "13",
+					"type": "Line",
+					"uri": "/Line/13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "137",
+					"name": "137",
+					"type": "Line",
+					"uri": "/Line/137"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "139",
+					"name": "139",
+					"type": "Line",
+					"uri": "/Line/139"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "159",
+					"name": "159",
+					"type": "Line",
+					"uri": "/Line/159"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "189",
+					"name": "189",
+					"type": "Line",
+					"uri": "/Line/189"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "23",
+					"name": "23",
+					"type": "Line",
+					"uri": "/Line/23"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "25",
+					"name": "25",
+					"type": "Line",
+					"uri": "/Line/25"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "390",
+					"name": "390",
+					"type": "Line",
+					"uri": "/Line/390"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "55",
+					"name": "55",
+					"type": "Line",
+					"uri": "/Line/55"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "6",
+					"name": "6",
+					"type": "Line",
+					"uri": "/Line/6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "7",
+					"name": "7",
+					"type": "Line",
+					"uri": "/Line/7"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "73",
+					"name": "73",
+					"type": "Line",
+					"uri": "/Line/73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "88",
+					"name": "88",
+					"type": "Line",
+					"uri": "/Line/88"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "94",
+					"name": "94",
+					"type": "Line",
+					"uri": "/Line/94"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "98",
+					"name": "98",
+					"type": "Line",
+					"uri": "/Line/98"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "c2",
+					"name": "C2",
+					"type": "Line",
+					"uri": "/Line/c2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "central",
+					"name": "Central",
+					"type": "Line",
+					"uri": "/Line/central"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n109",
+					"name": "N109",
+					"type": "Line",
+					"uri": "/Line/n109"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n113",
+					"name": "N113",
+					"type": "Line",
+					"uri": "/Line/n113"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n13",
+					"name": "N13",
+					"type": "Line",
+					"uri": "/Line/n13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n136",
+					"name": "N136",
+					"type": "Line",
+					"uri": "/Line/n136"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n137",
+					"name": "N137",
+					"type": "Line",
+					"uri": "/Line/n137"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n207",
+					"name": "N207",
+					"type": "Line",
+					"uri": "/Line/n207"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n3",
+					"name": "N3",
+					"type": "Line",
+					"uri": "/Line/n3"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n55",
+					"name": "N55",
+					"type": "Line",
+					"uri": "/Line/n55"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n7",
+					"name": "N7",
+					"type": "Line",
+					"uri": "/Line/n7"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n73",
+					"name": "N73",
+					"type": "Line",
+					"uri": "/Line/n73"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n8",
+					"name": "N8",
+					"type": "Line",
+					"uri": "/Line/n8"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n98",
+					"name": "N98",
+					"type": "Line",
+					"uri": "/Line/n98"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "victoria",
+					"name": "Victoria",
+					"type": "Line",
+					"uri": "/Line/victoria"
+				}
+			],
+			"lon": -0.141899,
+			"modes": [
+				"tube",
+				"bus"
+			],
+			"name": "Oxford Circus Underground Station",
+			"stationId": "940GZZLUOXC",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUOXC"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000179",
+			"id": "940GZZLUPCC",
+			"lat": 51.510055,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "12",
+					"name": "12",
+					"type": "Line",
+					"uri": "/Line/12"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "13",
+					"name": "13",
+					"type": "Line",
+					"uri": "/Line/13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "139",
+					"name": "139",
+					"type": "Line",
+					"uri": "/Line/139"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "14",
+					"name": "14",
+					"type": "Line",
+					"uri": "/Line/14"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "159",
+					"name": "159",
+					"type": "Line",
+					"uri": "/Line/159"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "19",
+					"name": "19",
+					"type": "Line",
+					"uri": "/Line/19"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "22",
+					"name": "22",
+					"type": "Line",
+					"uri": "/Line/22"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "23",
+					"name": "23",
+					"type": "Line",
+					"uri": "/Line/23"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "3",
+					"name": "3",
+					"type": "Line",
+					"uri": "/Line/3"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "38",
+					"name": "38",
+					"type": "Line",
+					"uri": "/Line/38"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "453",
+					"name": "453",
+					"type": "Line",
+					"uri": "/Line/453"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "6",
+					"name": "6",
+					"type": "Line",
+					"uri": "/Line/6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "88",
+					"name": "88",
+					"type": "Line",
+					"uri": "/Line/88"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "94",
+					"name": "94",
+					"type": "Line",
+					"uri": "/Line/94"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n109",
+					"name": "N109",
+					"type": "Line",
+					"uri": "/Line/n109"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n113",
+					"name": "N113",
+					"type": "Line",
+					"uri": "/Line/n113"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n13",
+					"name": "N13",
+					"type": "Line",
+					"uri": "/Line/n13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n136",
+					"name": "N136",
+					"type": "Line",
+					"uri": "/Line/n136"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n19",
+					"name": "N19",
+					"type": "Line",
+					"uri": "/Line/n19"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n22",
+					"name": "N22",
+					"type": "Line",
+					"uri": "/Line/n22"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n3",
+					"name": "N3",
+					"type": "Line",
+					"uri": "/Line/n3"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n38",
+					"name": "N38",
+					"type": "Line",
+					"uri": "/Line/n38"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n97",
+					"name": "N97",
+					"type": "Line",
+					"uri": "/Line/n97"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "piccadilly",
+					"name": "Piccadilly",
+					"type": "Line",
+					"uri": "/Line/piccadilly"
+				}
+			],
+			"lon": -0.133794,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Piccadilly Circus Underground Station",
+			"stationId": "940GZZLUPCC",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUPCC"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000191",
+			"id": "940GZZLURGP",
+			"lat": 51.523349,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Line",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "205",
+					"name": "205",
+					"type": "Line",
+					"uri": "/Line/205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "27",
+					"name": "27",
+					"type": "Line",
+					"uri": "/Line/27"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "30",
+					"name": "30",
+					"type": "Line",
+					"uri": "/Line/30"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "453",
+					"name": "453",
+					"type": "Line",
+					"uri": "/Line/453"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n205",
+					"name": "N205",
+					"type": "Line",
+					"uri": "/Line/n205"
+				}
+			],
+			"lon": -0.146441,
+			"modes": [
+				"bus",
+				"tube"
+			],
+			"name": "Regent's Park Underground Station",
+			"stationId": "940GZZLURGP",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLURGP"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000253",
+			"id": "940GZZLUWKA",
+			"lat": 51.523268,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "187",
+					"name": "187",
+					"type": "Line",
+					"uri": "/Line/187"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "414",
+					"name": "414",
+					"type": "Line",
+					"uri": "/Line/414"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "46",
+					"name": "46",
+					"type": "Line",
+					"uri": "/Line/46"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "6",
+					"name": "6",
+					"type": "Line",
+					"uri": "/Line/6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				}
+			],
+			"lon": -0.18378,
+			"modes": [
+				"tube",
+				"bus"
+			],
+			"name": "Warwick Avenue Underground Station",
+			"stationId": "940GZZLUWKA",
+			"stopType": "NaptanMetroStation",
+			"topMostParentId": "940GZZLUWKA"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000045",
+			"id": "HUBCHX",
+			"lat": 51.507819,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "11",
+					"name": "11",
+					"type": "Line",
+					"uri": "/Line/11"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "13",
+					"name": "13",
+					"type": "Line",
+					"uri": "/Line/13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "139",
+					"name": "139",
+					"type": "Line",
+					"uri": "/Line/139"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "15",
+					"name": "15",
+					"type": "Line",
+					"uri": "/Line/15"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "176",
+					"name": "176",
+					"type": "Line",
+					"uri": "/Line/176"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "23",
+					"name": "23",
+					"type": "Line",
+					"uri": "/Line/23"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "6",
+					"name": "6",
+					"type": "Line",
+					"uri": "/Line/6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "87",
+					"name": "87",
+					"type": "Line",
+					"uri": "/Line/87"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "9",
+					"name": "9",
+					"type": "Line",
+					"uri": "/Line/9"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "91",
+					"name": "91",
+					"type": "Line",
+					"uri": "/Line/91"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n11",
+					"name": "N11",
+					"type": "Line",
+					"uri": "/Line/n11"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n13",
+					"name": "N13",
+					"type": "Line",
+					"uri": "/Line/n13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n15",
+					"name": "N15",
+					"type": "Line",
+					"uri": "/Line/n15"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n155",
+					"name": "N155",
+					"type": "Line",
+					"uri": "/Line/n155"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n21",
+					"name": "N21",
+					"type": "Line",
+					"uri": "/Line/n21"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n26",
+					"name": "N26",
+					"type": "Line",
+					"uri": "/Line/n26"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n343",
+					"name": "N343",
+					"type": "Line",
+					"uri": "/Line/n343"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n44",
+					"name": "N44",
+					"type": "Line",
+					"uri": "/Line/n44"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n47",
+					"name": "N47",
+					"type": "Line",
+					"uri": "/Line/n47"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n551",
+					"name": "N551",
+					"type": "Line",
+					"uri": "/Line/n551"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n87",
+					"name": "N87",
+					"type": "Line",
+					"uri": "/Line/n87"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n89",
+					"name": "N89",
+					"type": "Line",
+					"uri": "/Line/n89"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n9",
+					"name": "N9",
+					"type": "Line",
+					"uri": "/Line/n9"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n91",
+					"name": "N91",
+					"type": "Line",
+					"uri": "/Line/n91"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Line",
+					"uri": "/Line/northern"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "rb1",
+					"name": "RB1",
+					"type": "Line",
+					"uri": "/Line/rb1"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "rb2",
+					"name": "RB2",
+					"type": "Line",
+					"uri": "/Line/rb2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "rb6",
+					"name": "RB6",
+					"type": "Line",
+					"uri": "/Line/rb6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "westminster-st-katherines-circular",
+					"name": "Westminster - St Katherine's Circular",
+					"type": "Line",
+					"uri": "/Line/westminster-st-katherines-circular"
+				}
+			],
+			"lon": -0.126137,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus",
+				"river-bus",
+				"river-tour"
+			],
+			"name": "Charing Cross Station",
+			"stationId": "HUBCHX",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBCHX"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000073",
+			"id": "HUBEPH",
+			"lat": 51.494505,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "1",
+					"name": "1",
+					"type": "Line",
+					"uri": "/Line/1"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "12",
+					"name": "12",
+					"type": "Line",
+					"uri": "/Line/12"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "133",
+					"name": "133",
+					"type": "Line",
+					"uri": "/Line/133"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "136",
+					"name": "136",
+					"type": "Line",
+					"uri": "/Line/136"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "148",
+					"name": "148",
+					"type": "Line",
+					"uri": "/Line/148"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "155",
+					"name": "155",
+					"type": "Line",
+					"uri": "/Line/155"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "168",
+					"name": "168",
+					"type": "Line",
+					"uri": "/Line/168"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "171",
+					"name": "171",
+					"type": "Line",
+					"uri": "/Line/171"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "172",
+					"name": "172",
+					"type": "Line",
+					"uri": "/Line/172"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "176",
+					"name": "176",
+					"type": "Line",
+					"uri": "/Line/176"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "188",
+					"name": "188",
+					"type": "Line",
+					"uri": "/Line/188"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "196",
+					"name": "196",
+					"type": "Line",
+					"uri": "/Line/196"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "333",
+					"name": "333",
+					"type": "Line",
+					"uri": "/Line/333"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "343",
+					"name": "343",
+					"type": "Line",
+					"uri": "/Line/343"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "35",
+					"name": "35",
+					"type": "Line",
+					"uri": "/Line/35"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "363",
+					"name": "363",
+					"type": "Line",
+					"uri": "/Line/363"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "40",
+					"name": "40",
+					"type": "Line",
+					"uri": "/Line/40"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "415",
+					"name": "415",
+					"type": "Line",
+					"uri": "/Line/415"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "45",
+					"name": "45",
+					"type": "Line",
+					"uri": "/Line/45"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "453",
+					"name": "453",
+					"type": "Line",
+					"uri": "/Line/453"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "468",
+					"name": "468",
+					"type": "Line",
+					"uri": "/Line/468"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "53",
+					"name": "53",
+					"type": "Line",
+					"uri": "/Line/53"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "63",
+					"name": "63",
+					"type": "Line",
+					"uri": "/Line/63"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "68",
+					"name": "68",
+					"type": "Line",
+					"uri": "/Line/68"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n1",
+					"name": "N1",
+					"type": "Line",
+					"uri": "/Line/n1"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n133",
+					"name": "N133",
+					"type": "Line",
+					"uri": "/Line/n133"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n155",
+					"name": "N155",
+					"type": "Line",
+					"uri": "/Line/n155"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n171",
+					"name": "N171",
+					"type": "Line",
+					"uri": "/Line/n171"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n343",
+					"name": "N343",
+					"type": "Line",
+					"uri": "/Line/n343"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n35",
+					"name": "N35",
+					"type": "Line",
+					"uri": "/Line/n35"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n63",
+					"name": "N63",
+					"type": "Line",
+					"uri": "/Line/n63"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n68",
+					"name": "N68",
+					"type": "Line",
+					"uri": "/Line/n68"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n89",
+					"name": "N89",
+					"type": "Line",
+					"uri": "/Line/n89"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Line",
+					"uri": "/Line/northern"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "p5",
+					"name": "P5",
+					"type": "Line",
+					"uri": "/Line/p5"
+				}
+			],
+			"lon": -0.099185,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Elephant & Castle Station",
+			"stationId": "HUBEPH",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBEPH"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000100",
+			"id": "HUBHDN",
+			"lat": 51.536305,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "187",
+					"name": "187",
+					"type": "Line",
+					"uri": "/Line/187"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "224",
+					"name": "224",
+					"type": "Line",
+					"uri": "/Line/224"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "226",
+					"name": "226",
+					"type": "Line",
+					"uri": "/Line/226"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "228",
+					"name": "228",
+					"type": "Line",
+					"uri": "/Line/228"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "260",
+					"name": "260",
+					"type": "Line",
+					"uri": "/Line/260"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "487",
+					"name": "487",
+					"type": "Line",
+					"uri": "/Line/487"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				}
+			],
+			"lon": -0.257774,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Harlesden Station",
+			"stationId": "HUBHDN",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBHDN"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000101",
+			"id": "HUBHRW",
+			"lat": 51.592216,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "140",
+					"name": "140",
+					"type": "Line",
+					"uri": "/Line/140"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "182",
+					"name": "182",
+					"type": "Line",
+					"uri": "/Line/182"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "186",
+					"name": "186",
+					"type": "Line",
+					"uri": "/Line/186"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "258",
+					"name": "258",
+					"type": "Line",
+					"uri": "/Line/258"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "340",
+					"name": "340",
+					"type": "Line",
+					"uri": "/Line/340"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "640",
+					"name": "640",
+					"type": "Line",
+					"uri": "/Line/640"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "h10",
+					"name": "H10",
+					"type": "Line",
+					"uri": "/Line/h10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "h9",
+					"name": "H9",
+					"type": "Line",
+					"uri": "/Line/h9"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-midland",
+					"name": "London Midland",
+					"type": "Line",
+					"uri": "/Line/london-midland"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				}
+			],
+			"lon": -0.334896,
+			"modes": [
+				"national-rail",
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Harrow & Wealdstone",
+			"stationId": "HUBHRW",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBHRW"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000122",
+			"id": "HUBKNL",
+			"lat": 51.530545,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Line",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				}
+			],
+			"lon": -0.22505,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Kensal Green Station",
+			"stationId": "HUBKNL",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBKNL"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000124",
+			"id": "HUBKNT",
+			"lat": 51.581786,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "114",
+					"name": "114",
+					"type": "Line",
+					"uri": "/Line/114"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "183",
+					"name": "183",
+					"type": "Line",
+					"uri": "/Line/183"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "223",
+					"name": "223",
+					"type": "Line",
+					"uri": "/Line/223"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "h10",
+					"name": "H10",
+					"type": "Line",
+					"uri": "/Line/h10"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "h18",
+					"name": "H18",
+					"type": "Line",
+					"uri": "/Line/h18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "h19",
+					"name": "H19",
+					"type": "Line",
+					"uri": "/Line/h19"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "h9",
+					"name": "H9",
+					"type": "Line",
+					"uri": "/Line/h9"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				}
+			],
+			"lon": -0.316946,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Kenton Station",
+			"stationId": "HUBKNT",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBKNT"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000145",
+			"id": "HUBMYB",
+			"lat": 51.521602,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "113",
+					"name": "113",
+					"type": "Line",
+					"uri": "/Line/113"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "13",
+					"name": "13",
+					"type": "Line",
+					"uri": "/Line/13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "139",
+					"name": "139",
+					"type": "Line",
+					"uri": "/Line/139"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Line",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "189",
+					"name": "189",
+					"type": "Line",
+					"uri": "/Line/189"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "2",
+					"name": "2",
+					"type": "Line",
+					"uri": "/Line/2"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "205",
+					"name": "205",
+					"type": "Line",
+					"uri": "/Line/205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "27",
+					"name": "27",
+					"type": "Line",
+					"uri": "/Line/27"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "274",
+					"name": "274",
+					"type": "Line",
+					"uri": "/Line/274"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "82",
+					"name": "82",
+					"type": "Line",
+					"uri": "/Line/82"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n113",
+					"name": "N113",
+					"type": "Line",
+					"uri": "/Line/n113"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n13",
+					"name": "N13",
+					"type": "Line",
+					"uri": "/Line/n13"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n205",
+					"name": "N205",
+					"type": "Line",
+					"uri": "/Line/n205"
+				}
+			],
+			"lon": -0.163013,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Marylebone Station",
+			"stationId": "HUBMYB",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBMYB"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000163",
+			"id": "HUBNWB",
+			"lat": 51.56258,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "245",
+					"name": "245",
+					"type": "Line",
+					"uri": "/Line/245"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				}
+			],
+			"lon": -0.303992,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "North Wembley Station",
+			"stationId": "HUBNWB",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBNWB"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000174",
+			"id": "HUBPAD",
+			"lat": 51.516981,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "205",
+					"name": "205",
+					"type": "Line",
+					"uri": "/Line/205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "23",
+					"name": "23",
+					"type": "Line",
+					"uri": "/Line/23"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "27",
+					"name": "27",
+					"type": "Line",
+					"uri": "/Line/27"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "332",
+					"name": "332",
+					"type": "Line",
+					"uri": "/Line/332"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "36",
+					"name": "36",
+					"type": "Line",
+					"uri": "/Line/36"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "436",
+					"name": "436",
+					"type": "Line",
+					"uri": "/Line/436"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "46",
+					"name": "46",
+					"type": "Line",
+					"uri": "/Line/46"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "7",
+					"name": "7",
+					"type": "Line",
+					"uri": "/Line/7"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "circle",
+					"name": "Circle",
+					"type": "Line",
+					"uri": "/Line/circle"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "district",
+					"name": "District",
+					"type": "Line",
+					"uri": "/Line/district"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "hammersmith-city",
+					"name": "Hammersmith & City",
+					"type": "Line",
+					"uri": "/Line/hammersmith-city"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n205",
+					"name": "N205",
+					"type": "Line",
+					"uri": "/Line/n205"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n7",
+					"name": "N7",
+					"type": "Line",
+					"uri": "/Line/n7"
+				}
+			],
+			"lon": -0.17616,
+			"modes": [
+				"national-rail",
+				"tube",
+				"bus"
+			],
+			"name": "Paddington",
+			"stationId": "HUBPAD",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBPAD"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000186",
+			"id": "HUBQPW",
+			"lat": 51.534443,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "187",
+					"name": "187",
+					"type": "Line",
+					"uri": "/Line/187"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "206",
+					"name": "206",
+					"type": "Line",
+					"uri": "/Line/206"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "316",
+					"name": "316",
+					"type": "Line",
+					"uri": "/Line/316"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "36",
+					"name": "36",
+					"type": "Line",
+					"uri": "/Line/36"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "6",
+					"name": "6",
+					"type": "Line",
+					"uri": "/Line/6"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				}
+			],
+			"lon": -0.204882,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Queen's Park",
+			"stationId": "HUBQPW",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBQPW"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000224",
+			"id": "HUBSBP",
+			"lat": 51.544041,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "112",
+					"name": "112",
+					"type": "Line",
+					"uri": "/Line/112"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "440",
+					"name": "440",
+					"type": "Line",
+					"uri": "/Line/440"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "611",
+					"name": "611",
+					"type": "Line",
+					"uri": "/Line/611"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				}
+			],
+			"lon": -0.275859,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Stonebridge Park Station",
+			"stationId": "HUBSBP",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBSBP"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000213",
+			"id": "HUBSOK",
+			"lat": 51.570229,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "223",
+					"name": "223",
+					"type": "Line",
+					"uri": "/Line/223"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				}
+			],
+			"lon": -0.308448,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "South Kenton Station",
+			"stationId": "HUBSOK",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBSOK"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000254",
+			"id": "HUBWAT",
+			"lat": 51.504269,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "1",
+					"name": "1",
+					"type": "Line",
+					"uri": "/Line/1"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "139",
+					"name": "139",
+					"type": "Line",
+					"uri": "/Line/139"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "168",
+					"name": "168",
+					"type": "Line",
+					"uri": "/Line/168"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "171",
+					"name": "171",
+					"type": "Line",
+					"uri": "/Line/171"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "172",
+					"name": "172",
+					"type": "Line",
+					"uri": "/Line/172"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "176",
+					"name": "176",
+					"type": "Line",
+					"uri": "/Line/176"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "188",
+					"name": "188",
+					"type": "Line",
+					"uri": "/Line/188"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "211",
+					"name": "211",
+					"type": "Line",
+					"uri": "/Line/211"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "243",
+					"name": "243",
+					"type": "Line",
+					"uri": "/Line/243"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "26",
+					"name": "26",
+					"type": "Line",
+					"uri": "/Line/26"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "341",
+					"name": "341",
+					"type": "Line",
+					"uri": "/Line/341"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "381",
+					"name": "381",
+					"type": "Line",
+					"uri": "/Line/381"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "4",
+					"name": "4",
+					"type": "Line",
+					"uri": "/Line/4"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "507",
+					"name": "507",
+					"type": "Line",
+					"uri": "/Line/507"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "521",
+					"name": "521",
+					"type": "Line",
+					"uri": "/Line/521"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "59",
+					"name": "59",
+					"type": "Line",
+					"uri": "/Line/59"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "68",
+					"name": "68",
+					"type": "Line",
+					"uri": "/Line/68"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "76",
+					"name": "76",
+					"type": "Line",
+					"uri": "/Line/76"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "77",
+					"name": "77",
+					"type": "Line",
+					"uri": "/Line/77"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "city-cruises",
+					"name": "City Cruises",
+					"type": "Line",
+					"uri": "/Line/city-cruises"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "jubilee",
+					"name": "Jubilee",
+					"type": "Line",
+					"uri": "/Line/jubilee"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n1",
+					"name": "N1",
+					"type": "Line",
+					"uri": "/Line/n1"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n171",
+					"name": "N171",
+					"type": "Line",
+					"uri": "/Line/n171"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n343",
+					"name": "N343",
+					"type": "Line",
+					"uri": "/Line/n343"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n381",
+					"name": "N381",
+					"type": "Line",
+					"uri": "/Line/n381"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n68",
+					"name": "N68",
+					"type": "Line",
+					"uri": "/Line/n68"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "northern",
+					"name": "Northern",
+					"type": "Line",
+					"uri": "/Line/northern"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "rb1",
+					"name": "RB1",
+					"type": "Line",
+					"uri": "/Line/rb1"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "rv1",
+					"name": "RV1",
+					"type": "Line",
+					"uri": "/Line/rv1"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "waterloo-city",
+					"name": "Waterloo & City",
+					"type": "Line",
+					"uri": "/Line/waterloo-city"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "westminster-st-katherines-circular",
+					"name": "Westminster - St Katherine's Circular",
+					"type": "Line",
+					"uri": "/Line/westminster-st-katherines-circular"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "x68",
+					"name": "X68",
+					"type": "Line",
+					"uri": "/Line/x68"
+				}
+			],
+			"lon": -0.113356,
+			"modes": [
+				"national-rail",
+				"tube",
+				"river-bus",
+				"bus",
+				"river-tour"
+			],
+			"name": "Waterloo Station",
+			"stationId": "HUBWAT",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBWAT"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000271",
+			"id": "HUBWIJ",
+			"lat": 51.532556,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Line",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "220",
+					"name": "220",
+					"type": "Line",
+					"uri": "/Line/220"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "228",
+					"name": "228",
+					"type": "Line",
+					"uri": "/Line/228"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "266",
+					"name": "266",
+					"type": "Line",
+					"uri": "/Line/266"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "487",
+					"name": "487",
+					"type": "Line",
+					"uri": "/Line/487"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				}
+			],
+			"lon": -0.243006,
+			"modes": [
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Willesden Junction Station",
+			"stationId": "HUBWIJ",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBWIJ"
+		},
+		{
+			"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+			"icsId": "1000256",
+			"id": "HUBWMB",
+			"lat": 51.55232,
+			"lines": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "18",
+					"name": "18",
+					"type": "Line",
+					"uri": "/Line/18"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "182",
+					"name": "182",
+					"type": "Line",
+					"uri": "/Line/182"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "204",
+					"name": "204",
+					"type": "Line",
+					"uri": "/Line/204"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "223",
+					"name": "223",
+					"type": "Line",
+					"uri": "/Line/223"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "224",
+					"name": "224",
+					"type": "Line",
+					"uri": "/Line/224"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "297",
+					"name": "297",
+					"type": "Line",
+					"uri": "/Line/297"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "79",
+					"name": "79",
+					"type": "Line",
+					"uri": "/Line/79"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "83",
+					"name": "83",
+					"type": "Line",
+					"uri": "/Line/83"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "92",
+					"name": "92",
+					"type": "Line",
+					"uri": "/Line/92"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "bakerloo",
+					"name": "Bakerloo",
+					"type": "Line",
+					"uri": "/Line/bakerloo"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "h17",
+					"name": "H17",
+					"type": "Line",
+					"uri": "/Line/h17"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-midland",
+					"name": "London Midland",
+					"type": "Line",
+					"uri": "/Line/london-midland"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "london-overground",
+					"name": "London Overground",
+					"type": "Line",
+					"uri": "/Line/london-overground"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+					"id": "n18",
+					"name": "N18",
+					"type": "Line",
+					"uri": "/Line/n18"
+				}
+			],
+			"lon": -0.296642,
+			"modes": [
+				"national-rail",
+				"tube",
+				"overground",
+				"bus"
+			],
+			"name": "Wembley Central Station",
+			"stationId": "HUBWMB",
+			"stopType": "TransportInterchange",
+			"topMostParentId": "HUBWMB"
+		}
+	],
+	"stopPointSequences": [
+		{
+			"$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+			"branchId": 0,
+			"direction": "inbound",
+			"lineId": "bakerloo",
+			"lineName": "Bakerloo",
+			"nextBranchIds": [
+			],
+			"prevBranchIds": [
+			],
+			"stopPoint": [
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000101",
+					"id": "940GZZLUHAW",
+					"lat": 51.592266,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.335219,
+					"modes": [
+						"tube"
+					],
+					"name": "Harrow & Wealdstone Underground Station",
+					"parentId": "HUBHRW",
+					"stationId": "940GZZLUHAW",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBHRW"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000124",
+					"id": "940GZZLUKEN",
+					"lat": 51.581763,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.316911,
+					"modes": [
+						"tube"
+					],
+					"name": "Kenton Underground Station",
+					"parentId": "HUBKNT",
+					"stationId": "940GZZLUKEN",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBKNT"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000213",
+					"id": "940GZZLUSKT",
+					"lat": 51.570238,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.308433,
+					"modes": [
+						"tube"
+					],
+					"name": "South Kenton Underground Station",
+					"parentId": "HUBSOK",
+					"stationId": "940GZZLUSKT",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBSOK"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000163",
+					"id": "940GZZLUNWY",
+					"lat": 51.562558,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.304,
+					"modes": [
+						"tube"
+					],
+					"name": "North Wembley Underground Station",
+					"parentId": "HUBNWB",
+					"stationId": "940GZZLUNWY",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBNWB"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000256",
+					"id": "940GZZLUWYC",
+					"lat": 51.55231,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.296852,
+					"modes": [
+						"tube"
+					],
+					"name": "Wembley Central Underground Station",
+					"parentId": "HUBWMB",
+					"stationId": "940GZZLUWYC",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBWMB"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000224",
+					"id": "940GZZLUSGP",
+					"lat": 51.543965,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.275891,
+					"modes": [
+						"tube"
+					],
+					"name": "Stonebridge Park Underground Station",
+					"parentId": "HUBSBP",
+					"stationId": "940GZZLUSGP",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBSBP"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000100",
+					"id": "940GZZLUHSN",
+					"lat": 51.536316,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.257882,
+					"modes": [
+						"tube"
+					],
+					"name": "Harlesden Underground Station",
+					"parentId": "HUBHDN",
+					"stationId": "940GZZLUHSN",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBHDN"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000271",
+					"id": "940GZZLUWJN",
+					"lat": 51.532264,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.244282,
+					"modes": [
+						"tube"
+					],
+					"name": "Willesden Junction Underground Station",
+					"parentId": "HUBWIJ",
+					"stationId": "940GZZLUWJN",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBWIJ"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000122",
+					"id": "940GZZLUKSL",
+					"lat": 51.530544,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.225014,
+					"modes": [
+						"tube"
+					],
+					"name": "Kensal Green Underground Station",
+					"parentId": "HUBKNL",
+					"stationId": "940GZZLUKSL",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBKNL"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000186",
+					"id": "940GZZLUQPS",
+					"lat": 51.534163,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.204571,
+					"modes": [
+						"tube"
+					],
+					"name": "Queen's Park Underground Station",
+					"parentId": "HUBQPW",
+					"stationId": "940GZZLUQPS",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBQPW"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000127",
+					"id": "940GZZLUKPK",
+					"lat": 51.534985,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "206",
+							"name": "206",
+							"type": "Line",
+							"uri": "/Line/206"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "31",
+							"name": "31",
+							"type": "Line",
+							"uri": "/Line/31"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "316",
+							"name": "316",
+							"type": "Line",
+							"uri": "/Line/316"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "32",
+							"name": "32",
+							"type": "Line",
+							"uri": "/Line/32"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "328",
+							"name": "328",
+							"type": "Line",
+							"uri": "/Line/328"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "632",
+							"name": "632",
+							"type": "Line",
+							"uri": "/Line/632"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n28",
+							"name": "N28",
+							"type": "Line",
+							"uri": "/Line/n28"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n31",
+							"name": "N31",
+							"type": "Line",
+							"uri": "/Line/n31"
+						}
+					],
+					"lon": -0.194229,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Kilburn Park Underground Station",
+					"stationId": "940GZZLUKPK",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUKPK"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000141",
+					"id": "940GZZLUMVL",
+					"lat": 51.529782,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.185756,
+					"modes": [
+						"tube"
+					],
+					"name": "Maida Vale Underground Station",
+					"stationId": "940GZZLUMVL",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUMVL"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000253",
+					"id": "940GZZLUWKA",
+					"lat": 51.523268,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "187",
+							"name": "187",
+							"type": "Line",
+							"uri": "/Line/187"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "414",
+							"name": "414",
+							"type": "Line",
+							"uri": "/Line/414"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "46",
+							"name": "46",
+							"type": "Line",
+							"uri": "/Line/46"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "6",
+							"name": "6",
+							"type": "Line",
+							"uri": "/Line/6"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.18378,
+					"modes": [
+						"tube",
+						"bus"
+					],
+					"name": "Warwick Avenue Underground Station",
+					"stationId": "940GZZLUWKA",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUWKA"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000174",
+					"id": "940GZZLUPAC",
+					"lat": 51.516586,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "circle",
+							"name": "Circle",
+							"type": "Line",
+							"uri": "/Line/circle"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "district",
+							"name": "District",
+							"type": "Line",
+							"uri": "/Line/district"
+						}
+					],
+					"lon": -0.175686,
+					"modes": [
+						"tube"
+					],
+					"name": "Paddington Underground Station",
+					"parentId": "HUBPAD",
+					"stationId": "940GZZLUPAC",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBPAD"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000071",
+					"id": "940GZZLUERB",
+					"lat": 51.520304,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "16",
+							"name": "16",
+							"type": "Line",
+							"uri": "/Line/16"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "18",
+							"name": "18",
+							"type": "Line",
+							"uri": "/Line/18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "332",
+							"name": "332",
+							"type": "Line",
+							"uri": "/Line/332"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "414",
+							"name": "414",
+							"type": "Line",
+							"uri": "/Line/414"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "6",
+							"name": "6",
+							"type": "Line",
+							"uri": "/Line/6"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "98",
+							"name": "98",
+							"type": "Line",
+							"uri": "/Line/98"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n16",
+							"name": "N16",
+							"type": "Line",
+							"uri": "/Line/n16"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n18",
+							"name": "N18",
+							"type": "Line",
+							"uri": "/Line/n18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n98",
+							"name": "N98",
+							"type": "Line",
+							"uri": "/Line/n98"
+						}
+					],
+					"lon": -0.170147,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Edgware Road (Bakerloo) Underground Station",
+					"stationId": "940GZZLUERB",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUERB"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000145",
+					"id": "940GZZLUMYB",
+					"lat": 51.522327,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						}
+					],
+					"lon": -0.163204,
+					"modes": [
+						"tube"
+					],
+					"name": "Marylebone Underground Station",
+					"parentId": "HUBMYB",
+					"stationId": "940GZZLUMYB",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBMYB"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000011",
+					"id": "940GZZLUBST",
+					"lat": 51.522888,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "113",
+							"name": "113",
+							"type": "Line",
+							"uri": "/Line/113"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "13",
+							"name": "13",
+							"type": "Line",
+							"uri": "/Line/13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "139",
+							"name": "139",
+							"type": "Line",
+							"uri": "/Line/139"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "18",
+							"name": "18",
+							"type": "Line",
+							"uri": "/Line/18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "189",
+							"name": "189",
+							"type": "Line",
+							"uri": "/Line/189"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "205",
+							"name": "205",
+							"type": "Line",
+							"uri": "/Line/205"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "27",
+							"name": "27",
+							"type": "Line",
+							"uri": "/Line/27"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "274",
+							"name": "274",
+							"type": "Line",
+							"uri": "/Line/274"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "30",
+							"name": "30",
+							"type": "Line",
+							"uri": "/Line/30"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "453",
+							"name": "453",
+							"type": "Line",
+							"uri": "/Line/453"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "74",
+							"name": "74",
+							"type": "Line",
+							"uri": "/Line/74"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "82",
+							"name": "82",
+							"type": "Line",
+							"uri": "/Line/82"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "circle",
+							"name": "Circle",
+							"type": "Line",
+							"uri": "/Line/circle"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "hammersmith-city",
+							"name": "Hammersmith & City",
+							"type": "Line",
+							"uri": "/Line/hammersmith-city"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "jubilee",
+							"name": "Jubilee",
+							"type": "Line",
+							"uri": "/Line/jubilee"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "metropolitan",
+							"name": "Metropolitan",
+							"type": "Line",
+							"uri": "/Line/metropolitan"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n113",
+							"name": "N113",
+							"type": "Line",
+							"uri": "/Line/n113"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n13",
+							"name": "N13",
+							"type": "Line",
+							"uri": "/Line/n13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n18",
+							"name": "N18",
+							"type": "Line",
+							"uri": "/Line/n18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n205",
+							"name": "N205",
+							"type": "Line",
+							"uri": "/Line/n205"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n74",
+							"name": "N74",
+							"type": "Line",
+							"uri": "/Line/n74"
+						}
+					],
+					"lon": -0.157127,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Baker Street Underground Station",
+					"stationId": "940GZZLUBST",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUBST"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000191",
+					"id": "940GZZLURGP",
+					"lat": 51.523349,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "18",
+							"name": "18",
+							"type": "Line",
+							"uri": "/Line/18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "205",
+							"name": "205",
+							"type": "Line",
+							"uri": "/Line/205"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "27",
+							"name": "27",
+							"type": "Line",
+							"uri": "/Line/27"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "30",
+							"name": "30",
+							"type": "Line",
+							"uri": "/Line/30"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "453",
+							"name": "453",
+							"type": "Line",
+							"uri": "/Line/453"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n18",
+							"name": "N18",
+							"type": "Line",
+							"uri": "/Line/n18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n205",
+							"name": "N205",
+							"type": "Line",
+							"uri": "/Line/n205"
+						}
+					],
+					"lon": -0.146441,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Regent's Park Underground Station",
+					"stationId": "940GZZLURGP",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLURGP"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000173",
+					"id": "940GZZLUOXC",
+					"lat": 51.515228,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "10",
+							"name": "10",
+							"type": "Line",
+							"uri": "/Line/10"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "12",
+							"name": "12",
+							"type": "Line",
+							"uri": "/Line/12"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "13",
+							"name": "13",
+							"type": "Line",
+							"uri": "/Line/13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "137",
+							"name": "137",
+							"type": "Line",
+							"uri": "/Line/137"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "139",
+							"name": "139",
+							"type": "Line",
+							"uri": "/Line/139"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "159",
+							"name": "159",
+							"type": "Line",
+							"uri": "/Line/159"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "189",
+							"name": "189",
+							"type": "Line",
+							"uri": "/Line/189"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "23",
+							"name": "23",
+							"type": "Line",
+							"uri": "/Line/23"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "25",
+							"name": "25",
+							"type": "Line",
+							"uri": "/Line/25"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "390",
+							"name": "390",
+							"type": "Line",
+							"uri": "/Line/390"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "55",
+							"name": "55",
+							"type": "Line",
+							"uri": "/Line/55"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "6",
+							"name": "6",
+							"type": "Line",
+							"uri": "/Line/6"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "7",
+							"name": "7",
+							"type": "Line",
+							"uri": "/Line/7"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "73",
+							"name": "73",
+							"type": "Line",
+							"uri": "/Line/73"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "88",
+							"name": "88",
+							"type": "Line",
+							"uri": "/Line/88"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "94",
+							"name": "94",
+							"type": "Line",
+							"uri": "/Line/94"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "98",
+							"name": "98",
+							"type": "Line",
+							"uri": "/Line/98"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "c2",
+							"name": "C2",
+							"type": "Line",
+							"uri": "/Line/c2"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "central",
+							"name": "Central",
+							"type": "Line",
+							"uri": "/Line/central"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n109",
+							"name": "N109",
+							"type": "Line",
+							"uri": "/Line/n109"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n113",
+							"name": "N113",
+							"type": "Line",
+							"uri": "/Line/n113"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n13",
+							"name": "N13",
+							"type": "Line",
+							"uri": "/Line/n13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n136",
+							"name": "N136",
+							"type": "Line",
+							"uri": "/Line/n136"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n137",
+							"name": "N137",
+							"type": "Line",
+							"uri": "/Line/n137"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n18",
+							"name": "N18",
+							"type": "Line",
+							"uri": "/Line/n18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n207",
+							"name": "N207",
+							"type": "Line",
+							"uri": "/Line/n207"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n3",
+							"name": "N3",
+							"type": "Line",
+							"uri": "/Line/n3"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n55",
+							"name": "N55",
+							"type": "Line",
+							"uri": "/Line/n55"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n7",
+							"name": "N7",
+							"type": "Line",
+							"uri": "/Line/n7"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n73",
+							"name": "N73",
+							"type": "Line",
+							"uri": "/Line/n73"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n8",
+							"name": "N8",
+							"type": "Line",
+							"uri": "/Line/n8"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n98",
+							"name": "N98",
+							"type": "Line",
+							"uri": "/Line/n98"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "victoria",
+							"name": "Victoria",
+							"type": "Line",
+							"uri": "/Line/victoria"
+						}
+					],
+					"lon": -0.141899,
+					"modes": [
+						"tube",
+						"bus"
+					],
+					"name": "Oxford Circus Underground Station",
+					"stationId": "940GZZLUOXC",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUOXC"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000179",
+					"id": "940GZZLUPCC",
+					"lat": 51.510055,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "12",
+							"name": "12",
+							"type": "Line",
+							"uri": "/Line/12"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "13",
+							"name": "13",
+							"type": "Line",
+							"uri": "/Line/13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "139",
+							"name": "139",
+							"type": "Line",
+							"uri": "/Line/139"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "14",
+							"name": "14",
+							"type": "Line",
+							"uri": "/Line/14"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "159",
+							"name": "159",
+							"type": "Line",
+							"uri": "/Line/159"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "19",
+							"name": "19",
+							"type": "Line",
+							"uri": "/Line/19"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "22",
+							"name": "22",
+							"type": "Line",
+							"uri": "/Line/22"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "23",
+							"name": "23",
+							"type": "Line",
+							"uri": "/Line/23"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "3",
+							"name": "3",
+							"type": "Line",
+							"uri": "/Line/3"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "38",
+							"name": "38",
+							"type": "Line",
+							"uri": "/Line/38"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "453",
+							"name": "453",
+							"type": "Line",
+							"uri": "/Line/453"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "6",
+							"name": "6",
+							"type": "Line",
+							"uri": "/Line/6"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "88",
+							"name": "88",
+							"type": "Line",
+							"uri": "/Line/88"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "94",
+							"name": "94",
+							"type": "Line",
+							"uri": "/Line/94"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n109",
+							"name": "N109",
+							"type": "Line",
+							"uri": "/Line/n109"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n113",
+							"name": "N113",
+							"type": "Line",
+							"uri": "/Line/n113"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n13",
+							"name": "N13",
+							"type": "Line",
+							"uri": "/Line/n13"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n136",
+							"name": "N136",
+							"type": "Line",
+							"uri": "/Line/n136"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n18",
+							"name": "N18",
+							"type": "Line",
+							"uri": "/Line/n18"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n19",
+							"name": "N19",
+							"type": "Line",
+							"uri": "/Line/n19"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n22",
+							"name": "N22",
+							"type": "Line",
+							"uri": "/Line/n22"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n3",
+							"name": "N3",
+							"type": "Line",
+							"uri": "/Line/n3"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n38",
+							"name": "N38",
+							"type": "Line",
+							"uri": "/Line/n38"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n97",
+							"name": "N97",
+							"type": "Line",
+							"uri": "/Line/n97"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "piccadilly",
+							"name": "Piccadilly",
+							"type": "Line",
+							"uri": "/Line/piccadilly"
+						}
+					],
+					"lon": -0.133794,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Piccadilly Circus Underground Station",
+					"stationId": "940GZZLUPCC",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUPCC"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000045",
+					"id": "940GZZLUCHX",
+					"lat": 51.507415,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Line",
+							"uri": "/Line/northern"
+						}
+					],
+					"lon": -0.127273,
+					"modes": [
+						"tube"
+					],
+					"name": "Charing Cross Underground Station",
+					"parentId": "HUBCHX",
+					"stationId": "940GZZLUCHX",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBCHX"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000075",
+					"id": "940GZZLUEMB",
+					"lat": 51.507062,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "circle",
+							"name": "Circle",
+							"type": "Line",
+							"uri": "/Line/circle"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "district",
+							"name": "District",
+							"type": "Line",
+							"uri": "/Line/district"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n550",
+							"name": "N550",
+							"type": "Line",
+							"uri": "/Line/n550"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Line",
+							"uri": "/Line/northern"
+						}
+					],
+					"lon": -0.122662,
+					"modes": [
+						"tube",
+						"bus"
+					],
+					"name": "Embankment Underground Station",
+					"stationId": "940GZZLUEMB",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLUEMB"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000254",
+					"id": "940GZZLUWLO",
+					"lat": 51.503303,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "jubilee",
+							"name": "Jubilee",
+							"type": "Line",
+							"uri": "/Line/jubilee"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Line",
+							"uri": "/Line/northern"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "waterloo-city",
+							"name": "Waterloo & City",
+							"type": "Line",
+							"uri": "/Line/waterloo-city"
+						}
+					],
+					"lon": -0.114776,
+					"modes": [
+						"tube"
+					],
+					"name": "Waterloo Underground Station",
+					"parentId": "HUBWAT",
+					"stationId": "940GZZLUWLO",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBWAT"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"icsId": "1000132",
+					"id": "940GZZLULBN",
+					"lat": 51.498812,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "12",
+							"name": "12",
+							"type": "Line",
+							"uri": "/Line/12"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "148",
+							"name": "148",
+							"type": "Line",
+							"uri": "/Line/148"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "159",
+							"name": "159",
+							"type": "Line",
+							"uri": "/Line/159"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "453",
+							"name": "453",
+							"type": "Line",
+							"uri": "/Line/453"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "53",
+							"name": "53",
+							"type": "Line",
+							"uri": "/Line/53"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "59",
+							"name": "59",
+							"type": "Line",
+							"uri": "/Line/59"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "c10",
+							"name": "C10",
+							"type": "Line",
+							"uri": "/Line/c10"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n109",
+							"name": "N109",
+							"type": "Line",
+							"uri": "/Line/n109"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "n155",
+							"name": "N155",
+							"type": "Line",
+							"uri": "/Line/n155"
+						}
+					],
+					"lon": -0.11231,
+					"modes": [
+						"bus",
+						"tube"
+					],
+					"name": "Lambeth North Underground Station",
+					"stationId": "940GZZLULBN",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "940GZZLULBN"
+				},
+				{
+					"$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+					"hasDisruption": true,
+					"icsId": "1000073",
+					"id": "940GZZLUEAC",
+					"lat": 51.49454,
+					"lines": [
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "bakerloo",
+							"name": "Bakerloo",
+							"type": "Line",
+							"uri": "/Line/bakerloo"
+						},
+						{
+							"$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+							"id": "northern",
+							"name": "Northern",
+							"type": "Line",
+							"uri": "/Line/northern"
+						}
+					],
+					"lon": -0.100601,
+					"modes": [
+						"tube"
+					],
+					"name": "Elephant & Castle Underground Station",
+					"parentId": "HUBEPH",
+					"stationId": "940GZZLUEAC",
+					"stopType": "NaptanMetroStation",
+					"topMostParentId": "HUBEPH"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MindTheGap_Phase2_Starter_15S2.iml" filepath="$PROJECT_DIR$/MindTheGap_Phase2_Starter_15S2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MindTheGap_Phase2_Tests_15S2/MindTheGap_Phase2_Tests_15S2.iml" filepath="$PROJECT_DIR$/../MindTheGap_Phase2_Tests_15S2/MindTheGap_Phase2_Tests_15S2.iml" />
+    </modules>
+  </component>
+</project>
